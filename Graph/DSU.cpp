@@ -1,5 +1,6 @@
 vector<int> parent;
 vector<int> rank;
+vector<int>size;
 
 int find(int i)
 {
