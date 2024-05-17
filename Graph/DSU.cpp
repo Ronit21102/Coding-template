@@ -47,7 +47,7 @@ void UnionR(int x, int y)
 	        parent[x_parent] = y_parent;
 	        size[y_parent]  += size[x_parent];
 	    } else {
-	        parent[x_parent] = y_parent;
-	        size[y_parent]  += size[x_parent];
+	        parent[y_parent] = x_parent;
+	        size[x_parent]  += size[y_parent];
 	    }
 	}
